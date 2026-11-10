@@ -64,13 +64,15 @@ nav {
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
+    gap: ;
 }
 
-logo. {
-    display: block;
-    width: 30px;
+.logo {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    max-width: 100%;
     height: auto;
-    padding: 2px;
 }
 
 b {
@@ -96,7 +98,8 @@ b {
     margin: 8px 0;
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
-    text-decoration: inherit;
+    text-decoration: none;
+    list-style: none;
 }
 
 .nav__link--primary {
@@ -105,10 +108,7 @@ b {
     background: #6415ff;
     border-radius: 500px;
     border: none;
-}
-
-btn {
-    
+    list-style: none;
 }
 
 
